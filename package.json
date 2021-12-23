@@ -1,0 +1,29 @@
+{
+  "name": "thirdweb-helper-discord-bot",
+  "version": "1.0.0-alpha.1",
+  "description": "Official Discord bot helper for thirdweb community.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WarenGonzaga/thirdweb-helper-discord-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WarenGonzaga/thirdweb-helper-discord-bot/issues"
+  },
+  "homepage": "https://github.com/WarenGonzaga/thirdweb-helper-discord-bot#readme",
+  "packageManager": "yarn@3.1.1",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "discord.js": "^13.3.1",
+    "dotenv": "^10.0.0"
+  }
+}

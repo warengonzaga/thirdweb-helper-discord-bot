@@ -13,9 +13,9 @@ const bot = new DiscordJS.Client({
 });
 
 bot.on('messageCreate', (message) => {
-    if (message.content === 'web3') {
+    if (message.content === 'drop no-code') {
         message.reply({
-            content: 'no, it\'s thirdweb!',
+            content: 'Alright, here: https://thirdweb.com/portal/guides/release-an-nft-drop-with-no-code',
         });
     }
 });
@@ -27,7 +27,7 @@ bot.on('ready', async () => {
     bot.user?.setActivity('Community', { type: 'WATCHING' });
 
     // bot logs
-    console.log('# Thirdweb Faucet is now online!');
+    console.log('# Thirdweb helper is now online!');
 });
 
 // error handling
